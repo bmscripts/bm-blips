@@ -1,15 +1,15 @@
-fx_version 'adamant'
+fx_version 'cerulean'
 game 'gta5'
 
 name 'BM Blips'
 author 'BM Scripts'
-description 'Display any blips in any location of the map'
+description 'Advanced Blip System with Blip Info Integration'
 version '1.0.0'
 
+dependency 'blip_info'
+
+shared_script 'config.lua'
 
 client_scripts {
-	'config.lua',
-	'client/main.lua'
+    'client/main.lua'
 }
-
---dependency 'blip_info'
