@@ -2,19 +2,8 @@
 --  BM Scripts - Blip System (with Blip Info Integration) --
 --========================================================--
 
-local debugPrinted = false
-
 local function Debug(msg)
-    if PL.Debug then
-        if not debugPrinted then
-            print("^3[BM-BLIPS DEBUG]^7 " .. msg)
-            debugPrinted = true
-        end
-    end
-end
-
-local function Debug(msg)
-    if Debug then
+    if BM.Debug then
         print("^3[BM-BLIPS DEBUG]^7 " .. msg)
     end
 end
@@ -33,8 +22,8 @@ function generateBlips()
     --============================--
     --  SINGLE BLIPS
     --============================--
-    if ActivateSingle and BlipsSingle then
-        for i, v in ipairs(BlipsSingle) do
+    if BM.ActivateSingle and BM.BlipsSingle then
+        for i, v in ipairs(BM.BlipsSingle) do
             if not v.coords then
                 Debug(("Blip %s missing coords"):format(i))
             else
@@ -111,12 +100,11 @@ function generateBlips()
     --============================--
     --  RADIUS BLIPS
     --============================--
-    if ActivateRadius and BlipsRadius then
-        for _, v in ipairs(BlipsRadius) do
+    if BM.ActivateRadius and BM.BlipsRadius then
+        for _, v in ipairs(BM.BlipsRadius) do
             local blip = AddBlipForRadius(v.coords.x, v.coords.y, v.coords.z, v.radius)
 
-            SetBlipSprite(blip, v.sprite or 1)
-            SetBlipColour(blip, v.color or 0)
+            SetBlipColour(blip, v.color or 1)
             SetBlipAlpha(blip, v.transparency or 128)
 
             Debug(("Created radius blip at %s with radius %s"):format(v.coords, v.radius))

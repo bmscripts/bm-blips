@@ -54,42 +54,41 @@ All blips are defined inside `config.lua`.
 
 ```lua
 {
-    name = "Police Station",
-    coords = vec3(441.2, -981.9, 30.6),
-    sprite = 60,
-    color = 29,
-    scale = 0.9,
+    name = "Vinewood Sign (Example Blip)",
+    coords = vec3(711.38, 1198.0, 348.52),
+    sprite = 80,
+    color = 0,
+    scale = 1.0,
     shortRange = true,
 
     info = {
-        title = "Mission Row PD",
+        title = "Vinewood Sign",
         verified = true,
-        rp = "+250 RP",
-        money = "$5000",
+        rp = "+400",
+        money = "$1500",
 
         image = {
-            dict = "mpinventory",
-            tex = "mp_specitem_ped"
+            txd = "mpinventory",
+            txn = "mp_specitem_ped"
         },
 
         entries = {
-            { type = "header", left = "Services", right = "" },
-            { type = "text", left = "Open Hours", right = "24/7" },
-            { type = "name", left = "Chief", right = "J. Walker" },
-            { type = "icon", left = "Security", right = "High", icon = 1, color = 2, checked = true },
+            { type = "header", left = "Left Header", right = "Right Header" },
+            { type = "text", left = "Left Text", right = "Right Text" },
+            { type = "name", left = "Left Name", right = "Right Name" },
+            { type = "icon", left = "Left Icon", right = "Right Icon", icon = 0, color = 1, checked = true },
         }
     }
-}
+},
 ```
 ### Example Radius
 
 ```lua
-{ -- Mission Row Police Department
-    coords = vec3(441.2, -981.9, 30.6), -- Radius Location
-    radius = 50.0,                      -- Radius Size
-    sprite = 1,                         -- Radius Icon
-    color = 1,                          -- Radius Colour
-    transparency = 128                  -- Radius Transparency
+{ -- Vinewood Sign
+    coords = vec3(711.38, 1198.0, 348.52), -- Radius Location
+    radius = 200.0,                        -- Radius Size
+    color = 0,                             -- Radius Colour
+    transparency = 128                     -- Radius Transparency
 }
 ```
 > Blip icons and colours can be found here: https://docs.fivem.net/docs/game-references/blips/
