@@ -3,7 +3,7 @@ game 'gta5'
 
 name 'BM Blips'
 author 'BM Scripts'
-description 'Advanced Blip System with Blip Info Integration'
+description 'Advanced Blip System with Blip Info Support'
 version '1.0.0'
 
 dependency 'blip_info'

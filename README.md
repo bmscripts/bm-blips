@@ -4,7 +4,7 @@
   <img alt="Shows the BM Scripts banner" src="https://i.ibb.co/qLqknnYd/BMScripts-Header.png">
 </picture>
 
-# BM Blips – Advanced Blip System (with Blip Info Support)
+# BM Blips – Advanced Blip System with Blip Info Support
 
 A lightweight, flexible, and highly configurable blip system for FiveM.  
 Designed as a standalone script. This script allows you to create standard blips, radius blips, and detailed hover‑over information panels using the standalone [blip_info](https://github.com/glitchdetector/fivem-blip-info) resource.

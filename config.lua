@@ -9,7 +9,7 @@ BM.ActivateRadius = true     -- Enable/Disable BlipsRadius
 --  SINGLE BLIPS
 --============================--
 
-BM.BlipsSingle = { -- Find blips sprites and colours here: https://docs.fivem.net/docs/game-references/blips/
+BM.BlipsSingle = { -- Find blip sprites and colours here: https://docs.fivem.net/docs/game-references/blips/
 ---------- EXAMPLE ----------------------------------------------------------------------------------------------------
     -- {
     --     name = "Example Blip",
@@ -72,7 +72,7 @@ BM.BlipsSingle = { -- Find blips sprites and colours here: https://docs.fivem.ne
 --  RADIUS BLIPS
 --============================--
 
-BM.BlipsRadius = { -- Find blips sprites and colours here: https://docs.fivem.net/docs/game-references/blips/
+BM.BlipsRadius = { -- Find blip sprites and colours here: https://docs.fivem.net/docs/game-references/blips/
 ---------- EXAMPLE ----------------------------------------------------
     -- {
     --     coords = vec3(0.0, 0.0, 0.0), -- Radius Location
