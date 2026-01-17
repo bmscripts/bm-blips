@@ -75,6 +75,18 @@ All blips are defined inside `config.lua`.
     }
 }
 ```
+### Example Radius
+
+```lua
+{ -- Mission Row Police Department
+    coords = vec3(441.2, -981.9, 30.6), -- Radius Location
+    radius = 50.0,                      -- Radius Size
+    sprite = 1,                         -- Radius Icon
+    color = 1,                          -- Radius Colour
+    transparency = 128                  -- Radius Transparency
+}
+```
+Blip icons and colours can be found here: https://docs.fivem.net/docs/game-references/blips/
 ---
 
 # 📘 Blip Info Documentation
