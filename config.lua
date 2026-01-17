@@ -1,17 +1,15 @@
 PL = {}
 
--- Enable debug logging
-PL.Debug = false
+Debug = false             -- Enable/Disable debug logging
 
--- Enable/disable blip types
-PL.ActivateSingle = true
-PL.ActivateRadius = false
+ActivateSingle = true     -- Enable/Disable BlipsSingle
+ActivateRadius = false    -- Enable/Disable BlipsRadius
 
 --============================--
 --  SINGLE BLIPS
 --============================--
 
-PL.BlipsSingle = { -- https://docs.fivem.net/docs/game-references/blips/
+BlipsSingle = { -- https://docs.fivem.net/docs/game-references/blips/
 ---------- EXAMPLE ----------------------------------------------------------------------------------------------------
     -- {
     --     name = "Police Station",
@@ -21,15 +19,15 @@ PL.BlipsSingle = { -- https://docs.fivem.net/docs/game-references/blips/
     --     scale = 0.9,
     --     shortRange = true,
 
-    --     info = { -- Optional
+    --     info = {
     --         title = "Mission Row PD",
     --         verified = true,
     --         rp = "+250 RP",
     --         money = "$5000",
 
     --         image = {
-    --             dict = "mpinventory",
-    --             tex = "mp_specitem_ped"
+    --             txd = "mpinventory",
+    --             txn = "mp_specitem_ped"
     --         },
 
     --         entries = {
@@ -41,6 +39,24 @@ PL.BlipsSingle = { -- https://docs.fivem.net/docs/game-references/blips/
     --     }
     -- },
 ------------------------------------------------------------------------------------------------------------------------
+    
+    {
+        name = "Police Station",
+        coords = vec3(441.2, -981.9, 30.6),
+        sprite = 60,
+        color = 29,
+        scale = 0.9,
+        shortRange = true,
+
+        info = {
+            title = "LSPD YUUR",
+
+            image = {
+                txd = "mpinventory",
+                txn = "mp_specitem_ped"
+            },
+        }
+    },
     {
         name = "Benny's Motorworks",
         coords = vec3(-211.82, -1324.06, 30.37),
@@ -87,7 +103,7 @@ PL.BlipsSingle = { -- https://docs.fivem.net/docs/game-references/blips/
 --  RADIUS BLIPS
 --============================--
 
-PL.BlipsRadius = { -- https://docs.fivem.net/docs/game-references/blips/
+BlipsRadius = { -- https://docs.fivem.net/docs/game-references/blips/
 ---------- EXAMPLE ----------------------------------------------------
     -- { -- Mission Row Police Department
     --     coords = vec3(441.2, -981.9, 30.6), -- Radius Location
