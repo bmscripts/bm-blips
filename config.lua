@@ -1,26 +1,63 @@
 PL = {}
- 
------------------------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------------------------
---Settings-------------------------------------------------------------------------------------------------------------------------------------
 
-PL.ActivateSingle = true -- Turn Blips On/Off
-PL.ActivateRadius = true -- Turn Radius Blips On/Off
+-- Enable debug logging
+PL.Debug = false
 
------------------------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------------------------
---Single---------------------------------------------------------------------------------------------------------------------------------------
+-- Enable/disable blip types
+PL.ActivateSingle = true
+PL.ActivateRadius = false
+
+--============================--
+--  SINGLE BLIPS
+--============================--
 
 PL.BlipsSingle = {
-    --   [1] = {
-    --       name = "EXAMPLE",                               -- Blip Name
-    --       sprite = 0,                                     -- Blip Image https://docs.fivem.net/docs/game-references/blips/
-    --       color = 0,                                      -- Blip Colour https://docs.fivem.net/docs/game-references/blips/
-    --       scale = 0.6,                                    -- Blip Size
-    --       coords = vector3(0.0, 0.0, 0.0)                 -- Blip Location
-    --   },
------------------------------------------------------------------------------------------------------------------------------------------------
-    [1] = {
+    {
+        name = "Police Station",
+        coords = vec3(441.2, -981.9, 30.6),
+        sprite = 60,
+        color = 29,
+        scale = 0.9,
+        shortRange = true,
+
+        info = {
+            title = "Mission Row PD",
+            verified = true,
+            rp = "+250 RP",
+            money = "$5000",
+
+            image = {
+                dict = "mpinventory",
+                tex = "mp_specitem_ped"
+            },
+
+            entries = {
+                { type = "header", left = "Services", right = "Test 1234" },
+                { type = "text", left = "Open Hours", right = "24/7" },
+                { type = "name", left = "Chief", right = "J. Walker" },
+                { type = "icon", left = "Security", right = "High", icon = 1, color = 2, checked = true },
+            }
+        }
+    }
+}
+
+--============================--
+--  RADIUS BLIPS
+--============================--
+
+PL.BlipsRadius = {
+    -- Example:
+    -- {
+    --     coords = vec3(200.0, 200.0, 30.0),
+    --     radius = 150.0,
+    --     sprite = 1,
+    --     color = 1,
+    --     transparency = 128
+    -- }
+}
+
+--[[ 
+[1] = {
         name = "Benny's Motorworks",
         sprite = 446,
         color = 0,
@@ -56,25 +93,4 @@ PL.BlipsSingle = {
         coords = vec3(-1650.75, -3140.37, 13.47)
     },
 }
-
------------------------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------------------------
---Radius---------------------------------------------------------------------------------------------------------------------------------------
-
-PL.BlipsRadius = {
-    -- [1] = {
-    --     sprite = 9, -- DO NOT CHANGE                   -- Radius Blip Image https://docs.fivem.net/docs/game-references/blips/
-    --     color = 2,                                     -- Radius Blip Colour https://docs.fivem.net/docs/game-references/blips/
-    --     coords = vector3(310.21, -582.54, 43.26),      -- Radius Blip Location
-    --     radius = 50.0,                                 -- Radius Blip Size
-    --     transparency = 100,                            -- Radius Blip Transparency (0-255)
-    -- },
------------------------------------------------------------------------------------------------------------------------------------------------
-    -- [1] = {
-    --     sprite = 9, -- DO NOT CHANGE
-    --     color = 1,
-    --     coords = vec3(4790.22, -5086.21, 15.75),
-    --     radius = 1250.0,
-    --     transparency = 100,
-    -- },
-}
+]]--
