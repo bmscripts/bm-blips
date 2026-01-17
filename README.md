@@ -33,8 +33,8 @@ This script requires the standalone [blip_info](https://github.com/glitchdetecto
 
 ## 📁 Installation
 
-1. Download this resource  
-2. Place it in your `resources` folder  
+1. Download this resource and [blip_info](https://github.com/glitchdetector/fivem-blip-info)
+2. Extract and place both in your `resources` folder  
 3. Add the following to your `server.cfg`:
 ```
 ensure blip_info
