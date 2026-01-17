@@ -91,7 +91,7 @@ All blips are defined inside `config.lua`.
 
 # 📘 Blip Info Documentation
 
-This document explains all available configuration options for the Blip Info system used in BM Scripts – Blip System.  
+This document explains all available configuration options for the [blip_info](https://github.com/glitchdetector/fivem-blip-info) system used in bm-blips.  
 All fields are optional, safe to omit, and validated at runtime. (if you removed one of the fields/entries it won't break the script)
 
 ---
@@ -114,7 +114,7 @@ Short titles prevent UI overflow and keep the panel clean.
 ---
 ## 🧩 Blip Info Fields
 
-These fields control the header section of the blip info panel.
+These fields control the header section of the [blip_info](https://github.com/glitchdetector/fivem-blip-info) panel.
 
 | Field | Type | Description |
 |-------|------|-------------|
@@ -141,7 +141,7 @@ info = {
 ---
 
 ## 🧩 Full Configuration Table
-The table below lists **every supported field** for the Blip Info system, including  
+The table below lists **every supported field** for the [blip_info](https://github.com/glitchdetector/fivem-blip-info) system, including  
 top‑level info fields, entry types, and all sub‑options.
 | Category | Field | Type | Description | Example |
 |----------|--------|------|-------------|---------|
@@ -244,3 +244,6 @@ This script is free to use, modify, and adapt for personal or server use.
 
 ## Attribution Requirement
 If you redistribute or modify this script, you must post credit to original creators.
+
+## Credit
+Credit to [glitchdetector](https://github.com/glitchdetector) for making [blip_info](https://github.com/glitchdetector/fivem-blip-info)
