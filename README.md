@@ -86,7 +86,7 @@ All blips are defined inside `config.lua`.
     transparency = 128                  -- Radius Transparency
 }
 ```
-Blip icons and colours can be found here: https://docs.fivem.net/docs/game-references/blips/
+> Blip icons and colours can be found here: https://docs.fivem.net/docs/game-references/blips/
 ---
 
 # 📘 Blip Info Documentation
