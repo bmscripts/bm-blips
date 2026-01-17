@@ -56,8 +56,8 @@ function generateBlips()
                     if v.info.image then
                         exports['blip_info']:SetBlipInfoImage(
                             blip,
-                            v.info.image.txd or "",
-                            v.info.image.txn or ""
+                            v.info.image.dict or "",
+                            v.info.image.tex or ""
                         )
                     end
 

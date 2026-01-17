@@ -26,8 +26,8 @@ BM.BlipsSingle = { -- Find blips sprites and colours here: https://docs.fivem.ne
     --         money = "$1500",
 
     --         image = {
-    --             txd = "mpinventory",
-    --             txn = "mp_specitem_ped"
+    --             dict = "mpinventory",
+    --             tex = "mp_specitem_ped"
     --         },
 
     --         entries = {
@@ -54,8 +54,8 @@ BM.BlipsSingle = { -- Find blips sprites and colours here: https://docs.fivem.ne
             money = "$1500",
 
             image = {
-                txd = "mpinventory",
-                txn = "mp_specitem_ped"
+                dict = "mpinventory",
+                tex = "mp_specitem_ped"
             },
 
             entries = {

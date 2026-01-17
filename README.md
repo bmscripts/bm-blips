@@ -68,8 +68,8 @@ All blips are defined inside `config.lua`.
         money = "$1500",
 
         image = {
-            txd = "mpinventory",
-            txn = "mp_specitem_ped"
+            dict = "mpinventory",
+            tex = "mp_specitem_ped"
         },
 
         entries = {
