@@ -231,10 +231,6 @@ PL.Debug = true
 ```
 ---
 
-# License
-
-This script is free to use, modify, and adapt for personal or server use.
-
 ### ✔ You ARE allowed to:
 - Use this script on any FiveM server  
 - Modify the code for personal or server needs  
@@ -252,3 +248,12 @@ If you redistribute or modify this script, you must post credit to original crea
 
 ## Credit
 Credit to [glitchdetector](https://github.com/glitchdetector) for making [blip_info](https://github.com/glitchdetector/fivem-blip-info)
+
+# License
+
+You may use and edit this script for personal or server use.
+
+If you reupload, redistribute, or share this script in any form, **attribution is required**.  
+You must credit the original author: **BM Scripts**.
+
+You may not claim this script as your own.
