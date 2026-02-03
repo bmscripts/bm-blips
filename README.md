@@ -249,11 +249,6 @@ If you redistribute or modify this script, you must post credit to original crea
 ## Credit
 Credit to [glitchdetector](https://github.com/glitchdetector) for making [blip_info](https://github.com/glitchdetector/fivem-blip-info)
 
-# License
+## 📄 License
 
-You may use and edit this script for personal or server use.
-
-If you reupload, redistribute, or share this script in any form, **attribution is required**.  
-You must credit the original author: **BM Scripts**.
-
-You may not claim this script as your own.
+**Attribution is Required**. Do not redistribute or sell without explicit permission. Keep all author(s) credits intact.
