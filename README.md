@@ -243,10 +243,7 @@ PL.Debug = true
 - Sell the script or any modified version of it  
 - Repackage it as a paid product  
 
-## Attribution Requirement
-If you redistribute or modify this script, you must post credit to original creators.
-
-## Credit
+## 📜 Credit
 Credit to [glitchdetector](https://github.com/glitchdetector) for making [blip_info](https://github.com/glitchdetector/fivem-blip-info)
 
 ## 📄 License
